@@ -1,0 +1,113 @@
+body{
+  font-family: 'Karla', sans-serif;
+}
+.navbar{
+  margin: 25px;
+  /* position: relative; */
+}
+.logo-img{
+  float: left;
+  margin-left: 8%;
+  margin-right: 45%;
+}
+.side{
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: hsl(216,30%,68%);
+}
+a:hover{
+  color: gray;
+}
+.btn{
+  border-color: gray;
+  border-style: solid;
+  padding: 8px 20px;
+}
+.btn:hover{
+  background-color: black;
+  color: hsl(0, 0%, 98%);
+}
+.top-container{
+  padding: 10%;
+  background-color: hsl(256, 26%, 20%);
+  color:hsl(0, 0%, 98%);
+  position: relative;
+}
+.top-container__background_right{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 90%;
+}
+.top-container__background_left{
+  position: absolute;
+  left: 0px;
+  top: 450px;
+  /* height: 90%; */
+  /* width: 12%; */
+}
+p{
+/* width: 65%; */
+line-height: 1.5;
+}
+.front-img{
+  float: right;
+  height: 50%;
+  width: 50%;
+  margin-left: 25px;
+}
+hr{
+  width: 10%;
+  margin: 0 0 50px 0;
+}
+h1{
+  font-size:60px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'DM Serif Display', serif;
+}
+.view{
+  border-color: white;
+  border-style: solid;
+  padding: 8px 20px;
+  position: relative;
+  top: 20px;
+  color: white;
+
+}
+.view:hover{
+  background-color: white;
+  color: black;
+}
+.middle-container{
+  margin-top: 300px;
+  padding: 0 10%;
+}
+.section1{
+  display: inline-block;
+  width: 33%;
+}
+.section2{
+  margin: 100px auto;
+  height: 200px;
+  background-color: hsl(256,26%,20%);
+  position: relative;
+}
+.section2 h1{
+  float: left;
+  width: 50%;
+  padding:0 30px 0 80px;;
+  color: white;
+}
+
+.section2 a{
+  position: absolute;
+  right: 80px;
+  top: 80px;
+}
+
+.bottom-container{
+  background-color: hsl(0, 0%, 98%);
+};
